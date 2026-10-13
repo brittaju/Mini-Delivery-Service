@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="brittajuDelivery.order-service.main" name="Default">
+        <packages>
+          <package value="brittajuorder" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="brittajuDelivery.payment-service.main" name="Default">
+        <packages>
+          <package value="brittajupayment" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="brittajuDelivery.common-libs.main" name="Default" />
+      <persistence-unit moduleName="brittajuDelivery.delivery-service.main" name="Default">
+        <packages>
+          <package value="brittajudelivery" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
